@@ -90,6 +90,7 @@ button {
     align-items: center;
     padding: 0 5% 0 5%;
     margin-top: 15%;
+    height: 620px;
 }
 .feature-p {
     width: 520px;
@@ -106,6 +107,7 @@ button {
     width: 300px;
     height: 250px;
     padding: 5% 5% 5% 5%;
+    margin-top: 5%;
 }
 .card img {
     width: 20px;
@@ -145,3 +147,4 @@ button {
     height: 40px;
     width: 40px;
 }
+/** SIGNUP **/
