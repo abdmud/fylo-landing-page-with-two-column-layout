@@ -17,7 +17,7 @@ button {
 
 /** PAGE DIV **/
 .page-div {
-    padding: 0 5% 0 5%;
+
 }
 
 /** NAV BAR **/
@@ -26,6 +26,7 @@ button {
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    padding: 0 5% 0 5%;
 }
 .nav-list {
     display: flex;
@@ -36,6 +37,8 @@ button {
 /** HERO **/
 .hero {
     display: flex;
+    padding: 0 5% 0 5%;
+    margin-top: 5%;
 }
 .hero-left {
     display: flex;
@@ -43,14 +46,16 @@ button {
     justify-content: center;
     width: 640px;
 }
-.hero-title {
+.hero-title,
+.feature-title {
     font-size: 38px;
     font-weight: 700;
 }
 .hero-text {
     font-size: 18px;
 }
-.hero-title, .hero-text {
+.hero-title, .hero-text,
+.feature-title, .feature-p {
     color: hsl(243, 87%, 12%);
 }
 .hero-img img{
@@ -73,4 +78,20 @@ button {
     color: white;
 }
 
-/** FEATURE BLOCK **/
+/** FEATURE BLOCK 
+.curve-img img{
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    height: 500px;
+}**/
+.feature {
+    padding: 0 5% 0 5%;
+    margin-top: 15%;
+}
+.feature-p {
+    width: 520px;
+}
+.feature-link {
+    color: hsl(170, 45%, 43%);
+    text-decoration: underline;
+}
