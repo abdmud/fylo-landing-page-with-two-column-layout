@@ -85,6 +85,9 @@ button {
     height: 500px;
 }**/
 .feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0 5% 0 5%;
     margin-top: 15%;
 }
@@ -94,4 +97,18 @@ button {
 .feature-link {
     color: hsl(170, 45%, 43%);
     text-decoration: underline;
+}
+.card {
+    border: solid 1px red;
+    width: 400px;
+    height: 300px;
+}
+.feature-image img{
+    align-content: center;
+    width: 540px;
+}
+.author img {
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
 }
