@@ -27,7 +27,6 @@ button {
     align-items: center;
     height: 100px;
 }
-
 .nav-list {
     display: flex;
     justify-content: space-evenly;
@@ -35,3 +34,13 @@ button {
 }
 
 /** HERO **/
+.hero {
+    display: flex;
+}
+.hero-left {
+    width: 640px;
+}
+.hero-img img{
+    width: 640px;
+    object-fit:fill;
+}
