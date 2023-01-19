@@ -102,9 +102,9 @@ button {
     display: flex;
     flex-direction: column;
     border: solid 1px red;
-    width: 350px;
-    height: 300px;
-    padding: 10% 10% 5% 10%;
+    width: 300px;
+    height: 250px;
+    padding: 5% 5% 5% 5%;
 }
 .card img {
     width: 20px;
@@ -118,7 +118,7 @@ button {
     display: flex;
     align-items: center;
     gap: 2%;
-    height: 90px;
+    height: 70px;
     border: solid 1px blue;
 }
 .author p {
@@ -127,15 +127,17 @@ button {
 .author-details {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    height: 92px;
+    align-content: flex-end;
+    height: 50px;
+    width: 120px;
     border: solid 1px black;
 }
-#name p {
+#name {
+    margin-bottom: -5%;
     font-size: 12px;
 }
-#role p {
-    font-size: 8px;
+#role {
+    font-size: 10px;
 }
 .author img {
     border-radius: 100px;
