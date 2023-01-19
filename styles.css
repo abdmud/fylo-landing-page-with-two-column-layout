@@ -99,13 +99,43 @@ button {
     text-decoration: underline;
 }
 .card {
+    display: flex;
+    flex-direction: column;
     border: solid 1px red;
     width: 400px;
     height: 300px;
+    padding: 5% 5% 5% 5%;
+}
+.card img {
+    width: 20px;
+    height: 20px;
 }
 .feature-image img{
     align-content: center;
     width: 540px;
+}
+.author {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    height: 90px;
+    border: solid 1px blue;
+}
+.author p {
+    flex-direction: column;
+}
+.author-details {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 92px;
+    border: solid 1px black;
+}
+#name p {
+    font-size: 12px;
+}
+#role p {
+    font-size: 8px;
 }
 .author img {
     border-radius: 100px;
