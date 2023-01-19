@@ -29,7 +29,7 @@ button {
 }
 .nav-list {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 400px;
 }
 
@@ -38,9 +38,31 @@ button {
     display: flex;
 }
 .hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 640px;
+}
+.hero-title {
+    font-size: 38px;
+    font-weight: 700;
+}
+.hero-text {
+    font-size: 18px;
+}
+.hero-title, .hero-text {
+    color: hsl(243, 87%, 12%);
 }
 .hero-img img{
     width: 640px;
-    object-fit:fill;
 }
+.input-button {
+    display: flex;
+}
+.hero-btn {
+    width: 200px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+}
+
+/** FEATURE BLOCK **/
