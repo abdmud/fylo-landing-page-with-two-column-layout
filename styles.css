@@ -148,3 +148,6 @@ button {
     width: 40px;
 }
 /** SIGNUP **/
+.signup {
+    display: flex;
+}
