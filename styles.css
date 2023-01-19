@@ -102,9 +102,9 @@ button {
     display: flex;
     flex-direction: column;
     border: solid 1px red;
-    width: 400px;
+    width: 350px;
     height: 300px;
-    padding: 5% 5% 5% 5%;
+    padding: 10% 10% 5% 10%;
 }
 .card img {
     width: 20px;
