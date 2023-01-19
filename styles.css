@@ -58,9 +58,17 @@ button {
 }
 .input-button {
     display: flex;
+    gap: 1%;
+}
+#email {
+    height: 40px;
+    width: 300px;
 }
 .hero-btn {
+    border: none;
+    border-radius: 2px;
     width: 200px;
+    height: 47px;
     background-color: hsl(224, 93%, 58%);
     color: white;
 }
