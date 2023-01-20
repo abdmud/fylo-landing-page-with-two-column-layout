@@ -181,5 +181,25 @@ button {
     height: 500px;
 }
 .footer {
+    display: flex;
+    justify-content: space-between;
     padding: 5% 5% 0 5%;
+    height: 450px;
+}
+
+.sm-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.fa-brands {
+    border: solid 1px white;
+    border-radius: 15px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
 }
