@@ -3,9 +3,11 @@
 /**     Body    **/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-html, body, p {
+html, body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3,
@@ -148,16 +150,27 @@ button {
     width: 40px;
 }
 /** SIGNUP **/
+.signup-section {
+    background-color: hsl(238, 22%, 44%);
+    margin-top: 10%;
+}
 .signup {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hsl(238, 22%, 44%);
     padding: 5% 5% 5% 5%;
 }
 .signup-text {
     width: 500px;
 }
+.signup-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.signup-title, .signup-p {
+    color: white;
+}
 .signup-button #email {
     width: 400px;
+    margin-bottom: 5%;
 }
