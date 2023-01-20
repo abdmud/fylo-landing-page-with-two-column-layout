@@ -150,4 +150,14 @@ button {
 /** SIGNUP **/
 .signup {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(238, 22%, 44%);
+    padding: 5% 5% 5% 5%;
+}
+.signup-text {
+    width: 500px;
+}
+.signup-button #email {
+    width: 400px;
 }
