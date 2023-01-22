@@ -80,12 +80,14 @@ button {
     color: white;
 }
 
-/** FEATURE BLOCK 
-.curve-img img{
+/** FEATURE BLOCK **/
+.feature-section {
+    border: solid 1px black;
     background-image: url(./images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
-    height: 500px;
-}**/
+    background-size: 200% 100%;
+    background-position: center;
+}
 .feature {
     display: flex;
     justify-content: space-between;
@@ -178,7 +180,7 @@ button {
 .footer-section {
     background-color: hsl(243, 87%, 12%);
     color: white;
-    height: 500px;
+    height: 450px;
 }
 .footer {
     display: flex;
