@@ -194,8 +194,16 @@ button {
 .footer-logo {
     padding: 5% 0 0 5%;
 }
-#footerLogo img {
-    color: "white";
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 50px;
+}
+.phone, .email {
+    display: flex;
+    align-items: center;
+    gap: 5%;
 }
 .sm-icons {
     display: flex;
