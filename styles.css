@@ -218,3 +218,41 @@ button {
     justify-content: center;
     align-items: center;
 }
+/******************
+    MOBILE
+*******************/
+@media only screen and (max-width: 450px) {
+    html,body {
+        width: 450px;
+        margin: 0;
+        padding: 0;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        height: 700px;
+        border: solid 1px blue;
+        gap: 5%;
+    }
+    .hero-left {
+        width: 340px;
+        height: 200px;
+    }
+    .hero-title,
+    .feature-title {
+    font-size: 20px;
+    font-weight: 700;
+    }
+    .hero-img img,
+    .feature-image img {
+        width: 350px;
+        height: 300px;
+    }
+    .feature {
+        display: flex;
+        flex-direction: column;
+    }
+}
