@@ -194,6 +194,9 @@ button {
 .footer-logo {
     padding: 5% 0 0 5%;
 }
+#footerLogo img {
+    color: "white";
+}
 .sm-icons {
     display: flex;
     justify-content: center;
