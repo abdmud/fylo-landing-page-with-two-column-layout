@@ -281,4 +281,23 @@ button {
     .signup-text {
         width: 350px;
     }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+    }
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+    .contact {
+        height: 300px;
+        margin-bottom: 5%;
+    }
+    .footer .sm-icons {
+        justify-content: center;
+        align-items: center;
+        width: 405px;
+    }
 }
