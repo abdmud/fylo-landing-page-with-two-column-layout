@@ -236,6 +236,8 @@ button {
         height: 700px;
         border: solid 1px blue;
         gap: 5%;
+        margin: 0;
+        padding: 0;
     }
     .hero-left {
         width: 340px;
@@ -253,6 +255,29 @@ button {
     }
     .feature {
         display: flex;
+        flex-direction: column-reverse;
+        padding: 0 5% 0 5%;
+        align-items: center;
+        justify-content: center;
+    }
+    .feature-section {
+        border: solid 1px black;
+        background-image: url(./images/bg-curve-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1000px;
+        margin-top: 0;
+    }
+    .feature-image {
+        margin-top: 10%;
+    }
+    .feature-p {
+        width: 350px;
+    }
+    .signup {
         flex-direction: column;
+    }
+    .signup-text {
+        width: 350px;
     }
 }
