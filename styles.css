@@ -67,7 +67,7 @@ button {
     display: flex;
     gap: 1%;
 }
-#email {
+#email, #signup-email {
     height: 40px;
     width: 300px;
 }
@@ -165,7 +165,7 @@ button {
 .signup-text {
     width: 500px;
 }
-.signup-text h2 {
+.signup-title {
     font-size: 36px;
     font-weight: 700;
 }
@@ -244,7 +244,6 @@ button {
         align-items: center;
         width: 448px;
         height: 750px;
-        border: solid 1px blue;
         gap: 10%;
         margin: 0;
         padding: 0;
@@ -255,9 +254,16 @@ button {
         text-align: center;
     }
     .hero-title,
-    .feature-title {
+    .feature-title,
+    .signup-title {
     font-size: 20px;
     font-weight: 700;
+    text-align: center;
+    }
+    .feature-p,
+    .feature-link,
+    .signup-p {
+        text-align: center;
     }
     .hero-img img,
     .feature-image img {
@@ -269,8 +275,11 @@ button {
         flex-direction: column;
         gap: 3%;
     }
-    #email, .hero-btn {
+    #email, .hero-btn,
+    #signup-email,
+    #signup-btn {
         width: 340px;
+        padding: 0;
     }
     .hero-btn {
         margin-top: 3%;
@@ -284,7 +293,6 @@ button {
         margin-top: 5%;
     }
     .feature-section {
-        border: solid 1px black;
         background-image: url(./images/bg-curve-mobile.svg);
         background-repeat: no-repeat;
         background-size: 350% 100%;
@@ -299,6 +307,10 @@ button {
     }
     .signup {
         flex-direction: column;
+        justify-content: center;
+    }
+    .signup-button {
+        width: 340px;
     }
     .signup-text {
         width: 350px;
