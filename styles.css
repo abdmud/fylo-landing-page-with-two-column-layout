@@ -71,6 +71,9 @@ button {
     height: 40px;
     width: 300px;
 }
+#signup-email {
+    margin-bottom: 2%;
+}
 .hero-btn {
     border: none;
     border-radius: 2px;
@@ -78,6 +81,8 @@ button {
     height: 47px;
     background-color: hsl(224, 93%, 58%);
     color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 /** FEATURE BLOCK **/
