@@ -253,6 +253,17 @@ button {
         width: 350px;
         height: 300px;
     }
+    .input-button {
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    #email, .hero-btn {
+        width: 340px;
+    }
+    .hero-btn {
+        margin-top: 3%;
+    }
     .feature {
         display: flex;
         flex-direction: column-reverse;
