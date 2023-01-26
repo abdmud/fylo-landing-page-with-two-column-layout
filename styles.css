@@ -242,7 +242,7 @@ button {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        width: 450px;
+        width: 448px;
         height: 750px;
         border: solid 1px blue;
         gap: 10%;
